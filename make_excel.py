@@ -1,11 +1,8 @@
-from os import write
-from openpyxl import Workbook
 from openpyxl import load_workbook 
 from userdata import UserData
 import pandas as pd 
-from datetime import date, datetime 
-import openpyxl
-import xlsxwriter
+from datetime import  datetime 
+
 
 #check date and name the file 
 current_date = datetime.now().date().__str__() 
